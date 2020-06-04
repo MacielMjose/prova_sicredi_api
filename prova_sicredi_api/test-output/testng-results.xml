@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10251" started-at="2020-05-21T01:08:25 BRT" finished-at="2020-05-21T01:08:35 BRT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10251" started-at="2020-05-21T01:08:25 BRT" finished-at="2020-05-21T01:08:35 BRT">
+      <class name="validacepapi.ValidaCepTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="setup" is-config="true" duration-ms="475" started-at="2020-05-21T01:08:25 BRT" finished-at="2020-05-21T01:08:26 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="consulta_cep_inexistente()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="consulta_cep_inexistente" duration-ms="6826" started-at="2020-05-21T01:08:26 BRT" finished-at="2020-05-21T01:08:33 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consulta_cep_inexistente -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="getResult" is-config="true" duration-ms="8" started-at="2020-05-21T01:08:33 BRT" finished-at="2020-05-21T01:08:33 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=consulta_cep_inexistente status=SUCCESS method=ValidaCepTests.consulta_cep_inexistente()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="consulta_cep_invalido()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="consulta_cep_invalido" duration-ms="1303" started-at="2020-05-21T01:08:33 BRT" finished-at="2020-05-21T01:08:34 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consulta_cep_invalido -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="getResult" is-config="true" duration-ms="1" started-at="2020-05-21T01:08:34 BRT" finished-at="2020-05-21T01:08:34 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=consulta_cep_invalido status=SUCCESS method=ValidaCepTests.consulta_cep_invalido()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="consulta_cep_valido()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="consulta_cep_valido" duration-ms="952" started-at="2020-05-21T01:08:34 BRT" finished-at="2020-05-21T01:08:35 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consulta_cep_valido -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="getResult" is-config="true" duration-ms="0" started-at="2020-05-21T01:08:35 BRT" finished-at="2020-05-21T01:08:35 BRT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=consulta_cep_valido status=SUCCESS method=ValidaCepTests.consulta_cep_valido()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:validacepapi.ValidaCepTests@4f063c0a]" name="tearDown" is-config="true" duration-ms="614" started-at="2020-05-21T01:08:35 BRT" finished-at="2020-05-21T01:08:35 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- validacepapi.ValidaCepTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
